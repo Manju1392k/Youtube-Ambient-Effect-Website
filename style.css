@@ -1,3 +1,4 @@
+/* Importing Ubuntu font family from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 body {
@@ -40,6 +41,7 @@ body {
 .TextBox {
     width: 30vw;
     height: max-content;
+    /* Adjust blur for Text clarity */
     backdrop-filter: blur(150px);
     padding: 32px 22px;
     border-radius: 8px;
@@ -48,4 +50,54 @@ body {
 .TextBox h1, h3 {
     color: #fff;
     font-weight: bold;
+}
+
+.VideoBackgroundbox {
+    width: 80vw;
+    height: max-content;
+    display: flex;
+    margin: auto;
+    /* Change Gif Image path for Ambient effect */
+    background-image: url('VideoGif.gif');
+    margin-bottom: 2rem;
+    border-radius: 15px;
+}
+
+.Videobox {
+    /* Adjust blur for Video clarity */
+    backdrop-filter: blur(150px);
+    padding: 2rem;
+    width: 80vw;
+    border-radius: 15px;
+}
+
+.playingvideo {
+    width: 60vw;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/* Media Queries for Making Responsive Design */
+
+@media screen and (max-width: 1030px) {
+
+    .HeadingText {
+        text-align: center;
+        width: 100vw;
+    }
+
+    .Backgroundimagebox {
+        width: 90vw;
+    }
+
+    .TextBox img {
+        width: 80vw;
+    }
+
+    .TextBox {
+        width: 80vw;
+        padding: 22px 22px;
+    }
+
 }
