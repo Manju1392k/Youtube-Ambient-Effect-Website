@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+    background-color: #0f0f0f;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.HeadingText {
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    width: 92vw;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.Backgroundimagebox {
+    width: 30vw;
+    height: max-content;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    flex-direction: column;
+    /* Change Image path for Ambient effect */
+    background-image: url('Image.png');
+    border-radius: 8px;
+    /* We can add width & height for background Image but I'm not giving width & height*/
+    /* background-size: 8rem 8rem; */
+}
+
+.TextBox img {
+    width: 25vw;
+    display: flex;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.TextBox {
+    width: 30vw;
+    height: max-content;
+    backdrop-filter: blur(150px);
+    padding: 32px 22px;
+    border-radius: 8px;
+}
+
+.TextBox h1, h3 {
+    color: #fff;
+    font-weight: bold;
+}
