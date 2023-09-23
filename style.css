@@ -10,11 +10,12 @@ body {
     font-weight: bold;
     color: #fff;
     border-bottom: 1px solid #fff;
-    width: 92vw;
+    width: 80vw;
     display: flex;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    font-size: 2.2rem;
 }
 
 .Backgroundimagebox {
@@ -27,8 +28,7 @@ body {
     /* Change Image path for Ambient effect */
     background-image: url('Image.png');
     border-radius: 8px;
-    /* We can add width & height for background Image but I'm not giving width & height*/
-    /* background-size: 8rem 8rem; */
+    background-size: 8rem 8rem;
 }
 
 .TextBox img {
@@ -42,7 +42,8 @@ body {
     width: 30vw;
     height: max-content;
     /* Adjust blur for Text clarity */
-    backdrop-filter: blur(150px);
+    backdrop-filter: blur(1000px);
+    display: block;
     padding: 32px 22px;
     border-radius: 8px;
 }
@@ -54,24 +55,28 @@ body {
 
 .Firstvideo {
     width: 80vw;
-    height: 30vw;
     display: flex;
     margin: auto;
+}
+
+.SecondVideo {
+    display: block;
+    width: 70vw;
     border-radius: 15px;
 }
 
-.redbox {
+.GlassEffectbox {
     margin-top: 2rem;
     width: 80vw;
-    height: 30vw;
     display: flex;
     margin: auto;
+    padding: 38px;
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 30vw;
+    bottom: 45vw;
     /* Adjust blur for Video clarity */
-    backdrop-filter: blur(500px);
+    backdrop-filter: blur(450px);
     border-radius: 15px;
 }
 
@@ -80,8 +85,8 @@ body {
 @media screen and (max-width: 1030px) {
 
     .HeadingText {
-        text-align: center;
-        width: 100vw;
+        font-size: 1.2rem;
+        width: 90vw;
     }
 
     .Backgroundimagebox {
@@ -89,12 +94,24 @@ body {
     }
 
     .TextBox img {
-        width: 80vw;
+        width: 75vw;
+        margin-top: 20px;
     }
 
     .TextBox {
-        width: 80vw;
-        padding: 22px 22px;
+        width: 90vw;
+        padding: 0px;
+        padding-bottom: 22px;
+    }
+
+    .TextBox h1, h3 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .GlassEffectbox {
+        padding: 20px;
+        bottom: 47vw;
     }
 
 }
