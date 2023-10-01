@@ -9,14 +9,6 @@
 
 ## Channel Name: SM CTR
 
-### 👇 Click this button for Short Video
-
-<a href="[https://www.youtube.com/watch?v=WDAOM1AO4AU](https://www.youtube.com/shorts/ySjeNiTlXek)">
-
-![youtube](https://user-images.githubusercontent.com/66934377/185027803-33520225-0da3-4eea-b6c1-86dbfc94fdd6.png)
-
-</a>
-
 ---
 
 # 🗂️ Languages
