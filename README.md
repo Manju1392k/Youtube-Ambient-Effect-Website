@@ -50,7 +50,7 @@
 * Now In **Windows, open cmd, in Mac, bash Terminal**. Now Hit the below commands.
 
 ```bash
-git clone [https://github.com/Manju1392k/smplayit-youtube-clone.git](https://github.com/Manju1392k/Youtube-Ambient-Effect-Website.git)https://github.com/Manju1392k/Youtube-Ambient-Effect-Website.git
+git clone https://github.com/Manju1392k/Youtube-Ambient-Effect-Website.git
 ```
 
 * The project was cloned after this process.
