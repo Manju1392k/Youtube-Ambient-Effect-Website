@@ -9,7 +9,7 @@
 
 ## Channel Name: SM CTR
 
-## <a href='https://www.youtube.com/shorts/ySjeNiTlXek'> Link </a>
+## <a href='https://www.youtube.com/shorts/ySjeNiTlXek' target="_blank"> Link </a>
 
 ---
 
