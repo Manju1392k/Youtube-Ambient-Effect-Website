@@ -5,14 +5,6 @@
 
 ---
 
-# _Watch Short Video in YouTube Channel_
-
-## Channel Name: SM CTR
-
-## <a href='https://www.youtube.com/shorts/ySjeNiTlXek' target="_blank"> Link </a>
-
----
-
 # 🗂️ Languages
 
 * This project makes use of the Language listed below.to run this project.
